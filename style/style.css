@@ -1,3 +1,4 @@
+mat
 /* font added */
 .open-sans-regular {
   font-family: "Open Sans", sans-serif;
@@ -6,8 +7,14 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+*{
+    margin: 0 auto;
+}
 /* Shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -23,6 +30,18 @@
     background-color: #FD6E0A;
     border-radius: 5px;
     border: none;
+}
+.section-title{
+    font-size: 35px;    
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0;
+
 }
 .text-center{
     text-align: center;
@@ -84,4 +103,32 @@ nav li a{
 }
 .banner-portfolio-pic{
     width: 580px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin:  0 auto;
+}
+main section{
+    margin: 130px 0;
+}
+/* About Section start */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 700;
 }
